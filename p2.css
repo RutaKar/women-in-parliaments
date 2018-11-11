@@ -1,0 +1,36 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.65;
+}
+
+h1 { 
+    font-size: 40px; color: pink; margin-bottom: 1px; padding-top: -6px;     margin:2% 15%;
+} 
+
+p { 
+    font-family: 'Montserrat', sans-serif;
+    margin:2% 15%;
+}
+
+img {
+    margin:2% 15%;
+}
+
+.map {
+    font-size:20px;
+    color:pink;
+    position: relative;
+    padding-right:95%;
+    color:pink;
+    text-decoration:underline;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    margin:2% 15%;
+}
+
+.para {
+    font-family: 'Montserrat', sans-serif;
+    margin:2% 15%;
+}

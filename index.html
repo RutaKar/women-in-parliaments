@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <link rel="stylesheet" href="main.css" type="text/css"">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+  <script type="text/javascript" src="d3.min.js"></script>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script type="text/javascript" src="d3.geo.min.js"></script> 
+  <script type="text/javascript" src="underscore-min.js"></script>
+  <script type="text/javascript" src="backbone-min.js"></script>
+  <script type="text/javascript" src="countries.js"></script>
+  <script type="text/javascript" src="data.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div>
+  <a href="about.html" class="about">ABOUT</a>
+</div>
+
+  <h1> WOMEN IN PARLIAMENTS </h1>
+  <h2> Explore articles and data on the % of women in national parliaments </h2>
+
+  <div id="container">
+  <div class="description">
+</div>
+  
+  <div id="map">
+</div>
+</div>
+
+
+  <script type="text/template" id="city-detail-tmp">
+    <div class="pad">
+  <span class="value"><%= value + "%" %></span>
+      <%= city %>
+</div>
+  </script>
+
+  <article id="article">  
+</article>
+
+
+</body>
+</html>

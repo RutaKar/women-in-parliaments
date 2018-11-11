@@ -1,0 +1,122 @@
+body {
+    background-color: white;
+    color: pink;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+    margin: 0;
+    text-align: center;
+}
+
+
+h1 { 
+	font-size: 34px; color: pink; margin-bottom: 1px; padding-top: 0px; 
+} 
+h2 { 
+	font-size: 15px; color:grey;
+}
+
+.description{
+	 margin-bottom: 30px;
+	 cl
+}
+
+.about {
+	font-size:20px;
+	position: relative;
+	padding-right:94%;
+	color:pink;
+	text-decoration:underline;
+    ;
+}
+
+#container {
+	margin: 0 auto;
+	width: 886px;
+}
+
+
+#map {
+	width: 100%;
+	height: 100%;
+}
+
+ 
+.city-detail {
+	min-width:80px;
+	border: 2px;
+	border-radius: 30px;
+
+	position: absolute;
+	display: none;
+
+	font-size: 25px;
+    font-style: italic;
+	font-weight:bold;
+    color: black;
+    text-align: center;
+   
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFFFF), color-stop(100%,#DFDBDB)); /* Chrome,Safari4+ */
+
+}
+
+.city-detail .pad { padding: 10px 10px 5px; }
+
+.city-detail .value {
+    font-size: 50px;
+    font-style: normal;
+    color: black;
+    display: block;
+    margin-bottom: .4em;
+}
+
+/* map */
+
+path {
+	stroke: #666;
+	fill: #555; 
+	stroke-width: 0.5;
+}
+
+circle {
+	opacity:0.8;
+}
+
+.layer {
+	fill: pink;
+	border-color: #ef4d0d;
+}
+
+#article{
+    position: absolute;
+    width:300px;
+    top:30%;
+    left: 0;
+    background-color: #555555;
+	color: grey;
+} 
+
+#article a{
+	color:pink;
+	text-decoration: none;
+}
+
+#article li{
+	padding: 12px;
+}
+
+#article ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+h3 {
+	text-transform: uppercase;	
+	color:	#f9f9f9;
+}
+
+circle:hover {
+	cursor:pointer;
+	opacity:1;
+}
+

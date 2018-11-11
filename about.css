@@ -1,0 +1,19 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17pt;
+	line-height: 1.65;
+	}
+
+	h1{
+		font-family: 'Montserrat', sans-serif;
+		text-align: center; 
+		text-shadow: 3px 2px grey;
+	}
+
+	h2{ 
+		font-family: 'Montserrat', sans-serif;
+		font-size: 10pt;
+		text-align: justify;
+		margin-right: 15em;
+		margin-left: 15em;
+	}
