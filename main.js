@@ -163,7 +163,7 @@
         this.path = d3.geo.path().projection(this.projection);
         width = $(this.el).width() || $(window).width();
         height = $(this.el).height() || $(window).height();
-        this.map = d3.select("#" + $(this.el).attr('id')).append("svg:svg").attr("height", "100%").attr("width", "100%").attr("viewBox", "0 0 " + width + " " + height);
+        this.map = d3.select("#" + $(this.el).attr('id')).append("svg:svg").attr("height", "90%").attr("width", "90%").attr("viewBox", "0 0 " + width + " " + height);
         this.world = this.map.append("svg:g").attr("id", "world");
         this.scaleWorldMap([width, height]);
         return this.render();
